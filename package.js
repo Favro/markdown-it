@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom([ '1.0', '1.2' ]);
+  api.versionsFrom("METEOR@2.3");
 
   api.use([
     'templating'
